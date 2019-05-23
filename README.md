@@ -25,8 +25,8 @@ Call Python code from MATLAB to calculate conditional and thermodynamic equilibr
 (6) >>Ca = 0.0102821 * S/35;
 (7) >>Mg = 0.0528171* S/35;
 (8) >>xST= 0.0282352* S/35; %This is the concentration of sulfur
-(8) >>B = xB*S / 1.80655 * 0.0000219;   
-(9) >>[K] = JN_PyMyAMI(PITZERpath,num2str(T),num2str(S),num2str(Ca),num2str(Mg));
+(9) >>B = xB*S / 1.80655 * 0.0000219;   
+(10) >>[K] = JN_PyMyAMI(PITZERpath,num2str(T),num2str(S),num2str(Ca),num2str(Mg));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
